@@ -1,10 +1,12 @@
 module.exports = (env) => {
 
+    const HtmlWebpackPlugin = require('html-webpack-plugin');
+
     const config = {
         entry: './src/js/app.js',
         output: {
             path: __dirname + '/dist',
-            filename: `bundle${env.production ? '.min' : ''}.js`
+            filename: `bundle.[hash:8]${env.production ? '.min' : ''}.js`
         },
 
         module: {
@@ -27,7 +29,15 @@ module.exports = (env) => {
                     ]
                 }
             ]
-        }
+        },
+        plugins: [
+            new HtmlWebpackPlugin({
+                inject: false,
+                sContent: 'hi',
+                filename: '**.html',
+                template: __dirname + '**.html',
+            })
+        ]
     }
 
     return config;
