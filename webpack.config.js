@@ -2,6 +2,22 @@ module.exports = (env) => {
 
     const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+    const getPluginArray = () => {
+
+        const pages = ['index', 'observable'];
+        const result = pages.map((page) => {
+            return new HtmlWebpackPlugin({
+                inject: false,
+                sContent: 'hi',
+                filename: `${page}.html`,
+                template: `${__dirname}/${page}.html`
+            });
+        });
+
+        return result
+
+    }
+
     const config = {
         entry: './src/js/app.js',
         output: {
@@ -30,14 +46,7 @@ module.exports = (env) => {
                 }
             ]
         },
-        plugins: [
-            new HtmlWebpackPlugin({
-                inject: false,
-                sContent: 'hi',
-                filename: '**.html',
-                template: __dirname + '**.html',
-            })
-        ]
+        plugins: getPluginArray()
     }
 
     return config;

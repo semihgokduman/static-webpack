@@ -156,8 +156,10 @@ function toComment(sourceMap) {
 __webpack_require__(2);
 
 // JavaScript
-window.$ = __webpack_require__(7);
-__webpack_require__(9);
+window.$ = __webpack_require__(8);
+__webpack_require__(10);
+
+__webpack_require__(11);
 
 /***/ }),
 /* 2 */
@@ -174,7 +176,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(5)(content, options);
+var update = __webpack_require__(6)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -197,6 +199,7 @@ if(false) {
 exports = module.exports = __webpack_require__(0)(undefined);
 // imports
 exports.i(__webpack_require__(4), "");
+exports.i(__webpack_require__(5), "");
 
 // module
 exports.push([module.i, "\n", ""]);
@@ -220,6 +223,20 @@ exports.push([module.i, "/* layout */\n* {\n    margin: 0;\n}\n", ""]);
 
 /***/ }),
 /* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "/* observable */\nbody{\n  font: 14px Arial;\n}\n\n#history {\n  border: 1px solid #000;\n  height: 300px;\n  overflow: auto;\n}\n\n#history div{\n  padding:5px;\n  margin:5px;\n  background:#eee\n}\n#history div:nth-of-type(2n){\n  background:#ddd;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -265,7 +282,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(6);
+var	fixUrls = __webpack_require__(7);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -578,7 +595,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -673,7 +690,7 @@ module.exports = function (css) {
 };
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10506,10 +10523,10 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 	return jQuery;
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)(module)))
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10539,7 +10556,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10562,6 +10579,117 @@ exports.default = App;
 
 $(function () {
   new App();
+});
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Observable = function () {
+  function Observable() {
+    _classCallCheck(this, Observable);
+
+    this.observers = [];
+    this._prevData = '';
+  }
+
+  _createClass(Observable, [{
+    key: 'subscribe',
+    value: function subscribe(f) {
+      this.observers.push(f);
+
+      return this;
+    }
+  }, {
+    key: 'unsubscribe',
+    value: function unsubscribe(f) {
+      this.observers = this.observers.filter(function (subscriber) {
+        return subscriber !== f;
+      });
+    }
+  }, {
+    key: 'notify',
+    value: function notify(data) {
+
+      if (this._prevData != data) {
+        console.log(data);
+        this.observers.forEach(function (observer) {
+          return observer(data);
+        });
+        this._prevData = data;
+      }
+    }
+  }]);
+
+  return Observable;
+}();
+
+$(function () {
+
+  if ($('#observe').length > 0) {
+
+    var input = document.querySelector('.js-input');
+
+    var p1 = document.querySelector('.js-p1');
+    var p2 = document.querySelector('.js-p2');
+    var p3 = document.querySelector('.js-p3');
+
+    var subscribeP1 = document.querySelector('.js-subscribe-p1');
+    var subscribeP2 = document.querySelector('.js-subscribe-p2');
+    var subscribeP3 = document.querySelector('.js-subscribe-p3');
+
+    var unsubscribeP1 = document.querySelector('.js-unsubscribe-p1');
+    var unsubscribeP2 = document.querySelector('.js-unsubscribe-p2');
+    var unsubscribeP3 = document.querySelector('.js-unsubscribe-p3');
+
+    var historyElement = document.querySelector('#history');
+
+    var updateP1 = function updateP1(text) {
+      return p1.textContent = text;
+    };
+    var updateP2 = function updateP2(text) {
+      return p2.textContent = text;
+    };
+    var updateP3 = function updateP3(text) {
+      return p3.textContent = text;
+    };
+
+    var updateHistory = function updateHistory(text) {
+      historyElement.innerHTML += '<div>' + text + '</div>';
+      historyElement.scrollTop = historyElement.scrollHeight;
+    };
+
+    var headingsObserver = new Observable();
+    headingsObserver.subscribe(updateP1);
+    headingsObserver.subscribe(updateP2);
+    headingsObserver.subscribe(updateP3);
+    headingsObserver.subscribe(updateHistory);
+
+    [{ element: subscribeP1, fn: updateP1, type: 'subscribe' }, { element: unsubscribeP1, fn: updateP1, type: 'unsubscribe' }, { element: subscribeP2, fn: updateP2, type: 'subscribe' }, { element: unsubscribeP2, fn: updateP2, type: 'unsubscribe' }, { element: subscribeP3, fn: updateP3, type: 'subscribe' }, { element: unsubscribeP3, fn: updateP3, type: 'unsubscribe' }].map(function (obj) {
+      if (obj.type === 'subscribe') {
+        obj.element.addEventListener('click', function () {
+          return headingsObserver.subscribe(obj.fn);
+        });
+      } else {
+        obj.element.addEventListener('click', function () {
+          return headingsObserver.unsubscribe(obj.fn);
+        });
+      }
+    });
+
+    ['keyup', 'keydown'].map(function (event) {
+      input.addEventListener(event, function (e) {
+        headingsObserver.notify(e.target.value);
+      });
+    });
+  }
 });
 
 /***/ })
