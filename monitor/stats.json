@@ -1,0 +1,394 @@
+[
+  {
+    "timeStamp": 1509113463684,
+    "time": 17114,
+    "hash": "68f720caa01e25ee0249",
+    "errors": [],
+    "size": 296987,
+    "assets": [
+      {
+        "name": "bundle.68f720ca.js",
+        "chunks": [
+          0
+        ],
+        "size": 295814,
+        "miniSize": 240834,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 292454,
+        "files": [
+          "bundle.68f720ca.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2278,
+            "id": 0
+          },
+          {
+            "name": "./src/js/app.js",
+            "size": 161,
+            "id": 1
+          },
+          {
+            "name": "./src/css/main.css",
+            "size": 1009,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/main.css",
+            "size": 349,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/layout.css",
+            "size": 207,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/observable.css",
+            "size": 423,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3011,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 8
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 9
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 10
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3797,
+            "id": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1509113540473,
+    "time": 1399,
+    "hash": "e3cc12834a4eb6d27ea5",
+    "errors": [],
+    "size": 296987,
+    "assets": [
+      {
+        "name": "bundle.e3cc1283.js",
+        "chunks": [
+          0
+        ],
+        "size": 295814,
+        "miniSize": 240834,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 292454,
+        "files": [
+          "bundle.e3cc1283.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2278,
+            "id": 0
+          },
+          {
+            "name": "./src/js/app.js",
+            "size": 161,
+            "id": 1
+          },
+          {
+            "name": "./src/css/main.css",
+            "size": 1009,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/main.css",
+            "size": 349,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/layout.css",
+            "size": 207,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/observable.css",
+            "size": 423,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3011,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 8
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 9
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 10
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3797,
+            "id": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1509113579159,
+    "time": 17284,
+    "hash": "68f720caa01e25ee0249",
+    "errors": [],
+    "size": 296987,
+    "assets": [
+      {
+        "name": "bundle.68f720ca.js",
+        "chunks": [
+          0
+        ],
+        "size": 295814,
+        "miniSize": 240834,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 292454,
+        "files": [
+          "bundle.68f720ca.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2278,
+            "id": 0
+          },
+          {
+            "name": "./src/js/app.js",
+            "size": 161,
+            "id": 1
+          },
+          {
+            "name": "./src/css/main.css",
+            "size": 1009,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/main.css",
+            "size": 349,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/layout.css",
+            "size": 207,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/observable.css",
+            "size": 423,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3011,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 8
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 9
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 10
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3797,
+            "id": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1509113604484,
+    "time": 1122,
+    "hash": "e3cc12834a4eb6d27ea5",
+    "errors": [],
+    "size": 296987,
+    "assets": [
+      {
+        "name": "bundle.e3cc1283.js",
+        "chunks": [
+          0
+        ],
+        "size": 295814,
+        "miniSize": 240834,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 292454,
+        "files": [
+          "bundle.e3cc1283.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2278,
+            "id": 0
+          },
+          {
+            "name": "./src/js/app.js",
+            "size": 161,
+            "id": 1
+          },
+          {
+            "name": "./src/css/main.css",
+            "size": 1009,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/main.css",
+            "size": 349,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/layout.css",
+            "size": 207,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/observable.css",
+            "size": 423,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3011,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 8
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 9
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 10
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3797,
+            "id": 11
+          }
+        ]
+      }
+    ]
+  }
+]

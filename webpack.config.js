@@ -1,6 +1,7 @@
 module.exports = (env) => {
 
     const HtmlWebpackPlugin = require('html-webpack-plugin');
+    const WebpackMonitor = require('webpack-monitor');
 
     const getPluginArray = () => {
 
@@ -13,6 +14,14 @@ module.exports = (env) => {
                 template: `${__dirname}/${page}.html`
             });
         });
+
+
+        result.push(
+          new WebpackMonitor({
+            capture: true,
+            launch: true,
+          })
+        )
 
         return result
 
