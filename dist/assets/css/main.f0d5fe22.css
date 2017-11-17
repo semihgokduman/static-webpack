@@ -1,0 +1,16 @@
+* {
+  margin: 0; }
+
+body {
+  font: 14px Arial; }
+
+#history {
+  border: 1px solid #000;
+  height: 300px;
+  overflow: auto; }
+  #history div {
+    padding: 5px;
+    margin: 5px;
+    background: #eee #history div; }
+    #history div :nth-of-type(2n) {
+      background: #ddd; }

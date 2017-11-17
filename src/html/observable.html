@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>webpack</title>
+    <link href="<%= htmlWebpackPlugin.files.css %>">
+
+  </head>
+  <body>
+
+    <div style="display:none">
+        <%= htmlWebpackPlugin.options.sContent %>
+    </div>
+
+    <div id="observe">
+        <input type="text" class="js-input" placeholder="type something here" value='something'>
+        <hr>
+        <button class="js-subscribe-p1">Subscribe</button>
+        <button class="js-unsubscribe-p1">Unsubscribe</button>
+        <p class="js-p1">something</p>
+        <hr>
+        <button class="js-subscribe-p2">Subscribe</button>
+        <button class="js-unsubscribe-p2">Unsubscribe</button>
+        <p class="js-p2">something</p>
+        <hr>
+        <button class="js-subscribe-p3">Subscribe</button>
+        <button class="js-unsubscribe-p3">Unsubscribe</button>
+        <p class="js-p3">something</p>
+        <hr>
+        <div name="" id="history" readonly>something</div>
+
+    </div>
+
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  </body>
+</html>

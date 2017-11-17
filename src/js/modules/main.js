@@ -7,10 +7,6 @@ export default class App {
 }
 
 
-
-
-
-
 $(function(){
   new App();
 });
