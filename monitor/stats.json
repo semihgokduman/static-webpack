@@ -390,5 +390,713 @@
         ]
       }
     ]
+  },
+  {
+    "timeStamp": 1510916860080,
+    "time": 7849,
+    "hash": "3b8249d481f765beb7e8",
+    "errors": [],
+    "size": 296872,
+    "assets": [
+      {
+        "name": "bundle.3b8249d4.js",
+        "chunks": [
+          0
+        ],
+        "size": 295699,
+        "miniSize": 240818,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 292339,
+        "files": [
+          "bundle.3b8249d4.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2278,
+            "id": 0
+          },
+          {
+            "name": "./src/js/app.js",
+            "size": 161,
+            "id": 1
+          },
+          {
+            "name": "./src/css/main.css",
+            "size": 1009,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/main.css",
+            "size": 349,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/layout.css",
+            "size": 207,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/observable.css",
+            "size": 423,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3011,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 8
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 9
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 10
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3682,
+            "id": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510917015691,
+    "time": 8770,
+    "hash": "bd6bd6947a99ec8827a6",
+    "errors": [],
+    "size": 97956,
+    "assets": [
+      {
+        "name": "bundle.bd6bd694.min.js",
+        "chunks": [
+          0
+        ],
+        "size": 96775,
+        "minified": true
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 207
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 974
+      }
+    ],
+    "chunks": [
+      {
+        "size": 292232,
+        "files": [
+          "bundle.bd6bd694.min.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2278,
+            "id": 0
+          },
+          {
+            "name": "./src/js/app.js",
+            "size": 161,
+            "id": 1
+          },
+          {
+            "name": "./src/css/main.css",
+            "size": 1009,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/main.css",
+            "size": 347,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/layout.css",
+            "size": 180,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/observable.css",
+            "size": 345,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3011,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 8
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 9
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 10
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3682,
+            "id": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510917060761,
+    "time": 8504,
+    "hash": "3222441d77150bbb0999",
+    "errors": [],
+    "size": 296840,
+    "assets": [
+      {
+        "name": "bundle.3222441d.js",
+        "chunks": [
+          0
+        ],
+        "size": 295667,
+        "miniSize": 240786,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 292307,
+        "files": [
+          "bundle.3222441d.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2278,
+            "id": 0
+          },
+          {
+            "name": "./src/js/app.js",
+            "size": 161,
+            "id": 1
+          },
+          {
+            "name": "./src/css/main.css",
+            "size": 1009,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/main.css",
+            "size": 349,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/layout.css",
+            "size": 226,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/css-loader!./src/css/modules/observable.css",
+            "size": 372,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/style-loader/lib/addStyles.js",
+            "size": 8704,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/style-loader/lib/urls.js",
+            "size": 3011,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 8
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 9
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 10
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3682,
+            "id": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510917449861,
+    "time": 8089,
+    "hash": "bf08387b1e6dc247b594",
+    "errors": [
+      "./src/css/main.css\nModule parse failed: /home/semih/Documents/github/static-webpack/src/css/main.css Unexpected character '@' (1:0)\nYou may need an appropriate loader to handle this file type.\n| @import url(modules/layout.css);\n| @import url(modules/observable.css);\n| \n @ ./src/js/app.js 4:0-26"
+    ],
+    "size": 280970,
+    "assets": [
+      {
+        "name": "bundle.bf08387b.js",
+        "chunks": [
+          0
+        ],
+        "size": 279797,
+        "miniSize": 226879,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 276632,
+        "files": [
+          "bundle.bf08387b.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/js/app.js",
+            "size": 161,
+            "id": 0
+          },
+          {
+            "name": "./src/css/main.css",
+            "size": 274,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 2
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 3
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 4
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3682,
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510917566993,
+    "time": 714,
+    "hash": "a8ef1062c577083771da",
+    "errors": [
+      "./src/css/main.css\nModule parse failed: /home/semih/Documents/github/static-webpack/src/css/main.css Unexpected character '@' (1:0)\nYou may need an appropriate loader to handle this file type.\n| @import 'modules/layout.css';\n| @import 'modules/observable.css'\n| \n @ ./src/js/app.js 4:0-26"
+    ],
+    "size": 280963,
+    "assets": [
+      {
+        "name": "bundle.a8ef1062.js",
+        "chunks": [
+          0
+        ],
+        "size": 279790,
+        "miniSize": 226872,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 276625,
+        "files": [
+          "bundle.a8ef1062.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/js/app.js",
+            "size": 161,
+            "id": 0
+          },
+          {
+            "name": "./src/css/main.css",
+            "size": 267,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 2
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 3
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 4
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3682,
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510917626142,
+    "time": 7683,
+    "hash": "752f6c0c3599fdfb937c",
+    "errors": [
+      "./src/js/app.js\nModule not found: Error: Can't resolve '../css/main.css' in '/home/semih/Documents/github/static-webpack/src/js'\nresolve '../css/main.css' in '/home/semih/Documents/github/static-webpack/src/js'\n  using description file: /home/semih/Documents/github/static-webpack/package.json (relative path: ./src/js)\n    Field 'browser' doesn't contain a valid alias configuration\n  after using description file: /home/semih/Documents/github/static-webpack/package.json (relative path: ./src/js)\n    using description file: /home/semih/Documents/github/static-webpack/package.json (relative path: ./src/css/main.css)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/semih/Documents/github/static-webpack/src/css/main.css doesn't exist\n      .js\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/semih/Documents/github/static-webpack/src/css/main.css.js doesn't exist\n      .json\n        Field 'browser' doesn't contain a valid alias configuration\n        /home/semih/Documents/github/static-webpack/src/css/main.css.json doesn't exist\n      as directory\n        /home/semih/Documents/github/static-webpack/src/css/main.css doesn't exist\n[/home/semih/Documents/github/static-webpack/src/css/main.css]\n[/home/semih/Documents/github/static-webpack/src/css/main.css.js]\n[/home/semih/Documents/github/static-webpack/src/css/main.css.json]\n[/home/semih/Documents/github/static-webpack/src/css/main.css]\n @ ./src/js/app.js 4:0-26"
+    ],
+    "size": 280778,
+    "assets": [
+      {
+        "name": "bundle.752f6c0c.js",
+        "chunks": [
+          0
+        ],
+        "size": 279605,
+        "miniSize": 226688,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 276358,
+        "files": [
+          "bundle.752f6c0c.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/js/app.js",
+            "size": 161,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 1
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 2
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 3
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3682,
+            "id": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510917667668,
+    "time": 744,
+    "hash": "643a4306b85f5b3cbd3f",
+    "errors": [
+      "./src/scss/main.scss\nModule build failed: Error: \"extract-text-webpack-plugin\" loader is used without the corresponding plugin, refer to https://github.com/webpack/extract-text-webpack-plugin for the usage example\n    at Object.pitch (/home/semih/Documents/github/static-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js:57:11)\n @ ./src/js/app.js 4:0-28"
+    ],
+    "size": 281039,
+    "assets": [
+      {
+        "name": "bundle.643a4306.js",
+        "chunks": [
+          0
+        ],
+        "size": 279866,
+        "miniSize": 226948,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 276703,
+        "files": [
+          "bundle.643a4306.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/js/app.js",
+            "size": 163,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 1
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 2
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 3
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3682,
+            "id": 4
+          },
+          {
+            "name": "./src/scss/main.scss",
+            "size": 343,
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510917678069,
+    "time": 8168,
+    "hash": "e14b9ada683c8bb6b764",
+    "errors": [
+      "./src/scss/main.scss\nModule build failed: Error: \"extract-text-webpack-plugin\" loader is used without the corresponding plugin, refer to https://github.com/webpack/extract-text-webpack-plugin for the usage example\n    at Object.pitch (/home/semih/Documents/github/static-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js:57:11)\n @ ./src/js/app.js 4:0-28"
+    ],
+    "size": 281039,
+    "assets": [
+      {
+        "name": "bundle.e14b9ada.js",
+        "chunks": [
+          0
+        ],
+        "size": 279866,
+        "miniSize": 226948,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 276703,
+        "files": [
+          "bundle.e14b9ada.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/js/app.js",
+            "size": 163,
+            "id": 0
+          },
+          {
+            "name": "./src/scss/main.scss",
+            "size": 343,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 2
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 3
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 4
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3682,
+            "id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1510917678834,
+    "time": 520,
+    "hash": "2c0c7baacda6882ab04c",
+    "errors": [
+      "./src/scss/main.scss\nModule build failed: Error: \"extract-text-webpack-plugin\" loader is used without the corresponding plugin, refer to https://github.com/webpack/extract-text-webpack-plugin for the usage example\n    at Object.pitch (/home/semih/Documents/github/static-webpack/node_modules/extract-text-webpack-plugin/dist/loader.js:57:11)\n @ ./src/js/app.js 4:0-28"
+    ],
+    "size": 281039,
+    "assets": [
+      {
+        "name": "bundle.2c0c7baa.js",
+        "chunks": [
+          0
+        ],
+        "size": 279866,
+        "miniSize": 226948,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 203
+      },
+      {
+        "name": "observable.html",
+        "chunks": [],
+        "size": 970
+      }
+    ],
+    "chunks": [
+      {
+        "size": 276703,
+        "files": [
+          "bundle.2c0c7baa.js"
+        ],
+        "modules": [
+          {
+            "name": "./src/js/app.js",
+            "size": 163,
+            "id": 0
+          },
+          {
+            "name": "./src/scss/main.scss",
+            "size": 343,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/jquery/dist/jquery.js",
+            "size": 271606,
+            "id": 2
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 521,
+            "id": 3
+          },
+          {
+            "name": "./src/js/modules/main.js",
+            "size": 388,
+            "id": 4
+          },
+          {
+            "name": "./src/js/modules/observable.js",
+            "size": 3682,
+            "id": 5
+          }
+        ]
+      }
+    ]
   }
 ]

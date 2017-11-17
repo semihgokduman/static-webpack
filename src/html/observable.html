@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title>webpack</title>
+    <link href="<%= htmlWebpackPlugin.files.css %>">
 
   </head>
   <body>
 
-    
     <div style="display:none">
         <%= htmlWebpackPlugin.options.sContent %>
     </div>
-
 
     <div id="observe">
         <input type="text" class="js-input" placeholder="type something here" value='something'>
@@ -31,7 +30,6 @@
         <div name="" id="history" readonly>something</div>
 
     </div>
-
 
     <script src="<%= htmlWebpackPlugin.files.js %>"></script>
   </body>
